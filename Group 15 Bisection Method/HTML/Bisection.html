@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../CSS/Bisection.css">
+
+	<script src="../node_modules/mathjax/es5/tex-mml-chtml.js"></script>
+	<script src="../node_modules/mathjs/lib/browser/math.js"></script>
+
+	<title>Bisection</title>
+</head>
+
+<body>
+	<header>
+	</header>
+
+	<nav>
+		<div class="title">
+			<h1>
+				&lt Group 15 Bisection Method Calculator &gt
+			</h1>
+		</div>
+
+	</nav>
+
+	<main>
+		<section>
+			<div class="inputs-container">
+				<p>This is a calculator that uses bisection as its root finding method.
+				</p>
+
+				<div class="input-container">
+					<label for="Input1">$$f(x)$$</label>
+					<div class="decoration">
+						<input type="text" id="Input1" name="Input1">
+					</div>
+				</div>
+				<div class="input-container">
+					<label for="Input2">$$x_0$$</label>
+					<div class="decoration">
+						<input type="number" id="Input2" name="Input2">
+					</div>
+				</div>
+				<div class="input-container">
+					<label for="Input3">$$x_1$$</label>
+					<div class="decoration">
+						<input type="number" id="Input3" name="Input3">
+					</div>
+				</div>
+				<div class="input-container">
+					<label for="Input4">$$\varepsilon$$</label>
+					<div class="decoration">
+						<input type="number" id="Input4" name="Input4">
+					</div>
+				</div>
+
+				<div class="input-container">
+					<button>Enter</button>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="outputs">
+				<div class="sub-container">
+					<span>Remark: </span>
+					<div class="output"></div>
+				</div>
+				<div class="sub-container">
+					<span>Iterations:</span>
+					<div class="output"></div>
+				</div>
+				<div class="sub-container">
+					<span>Approximated Root: </span>
+					<div class="output"></div>
+				</div>
+				<div class="sub-container">
+					<span>$$f(c_n)$$ </span>
+					<div class="output"></div>
+				</div>
+			</div>
+			<span>Table</span>
+			<div class="table-container">
+				<div class="output"></div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<h2>Members</h2>
+
+		<div class="members">
+			<div class="member">
+				<h3>Berces, Arthur William</h3>
+			</div>
+
+			<div class="member">
+				<h3>Damasco, Vinard James</h3>
+			</div>
+
+			<div class="member">
+				<h3>Espiritu, Kyle Gabrielle</h3>
+			</div>
+		</div>
+	</footer>
+</body>
+
+<script src="../JavaScript/Bisection.js"></script>
+
+</html>

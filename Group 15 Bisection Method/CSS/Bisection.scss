@@ -1,0 +1,91 @@
+* {
+    &::-webkit-scrollbar-track {
+        background: #ccd4f2;
+    }
+ 
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #24374b;
+    }
+}
+
+header {
+   background-image: url("../images/bisection.png");
+   border-bottom: 5px solid #24374b;
+}
+
+nav {
+    background-color: #ccd4f2;
+    .links {
+        a {
+            &.active,
+            &:hover {
+            color: #ccd4f2;
+            }
+        }
+    }   
+}
+
+main {
+    section {
+        border: 2px dashed #24374b;
+
+        &:nth-of-type(1) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           }
+    }
+}
+
+footer {
+    background-image: linear-gradient(to top, #ccd4f2, #e3f0f7, white);
+}
+
+
+.inputs-container{
+    .decoration {
+        border: 1px solid #24374b;
+    }
+    
+    button {
+        color: #24374b;
+        border: 1px solid #24374b;
+    }
+}
+
+
+.outputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    min-width: 70%;
+    padding: 1em;
+    border: 1px solid #ccd4f2;
+    border-bottom: 5px solid #ccd4f2;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    .sub-container {
+        margin-bottom: 1em;
+    }
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    table {
+        margin: auto;
+        border-collapse: collapse;
+
+        td {
+            padding: 0.3em;
+            border: 2px solid #ccd4f2;
+            text-align: center;
+        }
+    }
+}
